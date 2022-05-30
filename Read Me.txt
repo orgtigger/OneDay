@@ -17,3 +17,6 @@ Have testing situation where, patch was used (enter was pressed), static event o
 This did not result in a 'stale' global flag setting being picked up next time the week/day was updated.
 
 Pausing development pending user feedback (I might add more gold plating later, but this seems like a simple start.)
+
+
+https://github.com/orgtigger/OneDay.git
