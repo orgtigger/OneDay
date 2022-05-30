@@ -1,0 +1,19 @@
+﻿Initial release of OneDay mod 1.0.0.0
+
+Lessons learned.
+Need Framework 4.7.2 for mod to work, limitation of Vanilla game
+
+How does it work?
+
+Uses an existing handler that handle the 'Enter' button keypress from the argo screen
+This is also used for contracts.
+If the contract button exists, pressing the enter key will begin the contract.
+
+If the contract button does not exist whne pressing enter the flow of time will begin and a global flag will be set to true.
+
+Second part of the mod looks for the global flag, if it is set to true the next time the week/day value is updated it stops the flow of time and resets the counter.
+
+Have testing situation where, patch was used (enter was pressed), static event occured (mechlab finished), then the 'play' button was pressed.
+This did not result in a 'stale' global flag setting being picked up next time the week/day was updated.
+
+Pausing development pending user feedback (I might add more gold plating later, but this seems like a simple start.)

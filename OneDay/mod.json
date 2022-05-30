@@ -1,0 +1,11 @@
+﻿{
+  "Name": "OneDayAtATime",
+  "Version": "1.0.0.0",
+  "Description": "",
+  "Author": "Orgtigger",
+  "Website": "https://github.com/orgtigger/BTOneDayAtAtime",
+
+  "Enabled": true,
+
+  "DLL": "OneDay.dll"
+}
